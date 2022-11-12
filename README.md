@@ -12,3 +12,9 @@ Dataset Details:
 ORL face database composed of 400 images of size 112 x 92. There are 20 people, 20 images per person. The images were taken at different times, lighting and facial expressions. The faces are in an upright position in frontal view, with a slight left-right rotation.
 
 Link to the Dataset: https://github.com/gpurci/ORL_faces
+
+Image augmentation Details:
+Perform augmentation of image randomly, used 3 function noisy, noisy and rotation, aplied filter wiener.
+To perform augmentation call method 'getAugmentFunc' put index of wanted function(0 noisy, 1 noisyAndRotation, 2 Wiener)
+
+Link to class: https://github.com/gpurci/ImageAugmentation
